@@ -6,6 +6,8 @@ import "./signInForm.css";
 import { red } from "@mui/material/colors";
 
 const SigninForm = () => {
+  
+  
   return (
     <div className="content-signin">
       <div className="form-border">
@@ -27,11 +29,11 @@ const SigninForm = () => {
           label="Email address"
           required
           style={{
-            color: "white",
             backgroundColor: "#333",
             width: "400px",
           }}
-          InputLabelProps={{style : {color : 'white'} }}
+          InputLabelProps={{ style: { color: "white" } }}
+          sx={{ input: { color: "white" } }}
         />{" "}
         <br /> <br /> <br />
         <TextField
@@ -43,10 +45,11 @@ const SigninForm = () => {
             backgroundColor: "#333",
             width: "400px",
           }}
-          InputLabelProps={{style : {color : 'white'} }}
+          InputLabelProps={{ style: { color: "white" } }}
+          sx={{ input: { color: "white" } }}
         ></TextField>
         <br />
-        <br /> 
+        <br />
         <br />
         <Button
           style={{
@@ -59,7 +62,6 @@ const SigninForm = () => {
         >
           Sign in
         </Button>
-       
       </div>
       
     </div>
