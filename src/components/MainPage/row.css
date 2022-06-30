@@ -8,6 +8,7 @@
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
+    padding-bottom: 50px;
 }
 
 .row-posters::-webkit-scrollbar {
@@ -17,13 +18,13 @@
 .row-poster {
     max-height: 300px;
     object-fit: contain;
-    margin-right: 10px;
+    margin-right: 25px;
     transition: 450ms;
     /* width: 100%; */
 
 }
 
 .row-poster:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     opacity: 0.3;
 }

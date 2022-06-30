@@ -7,7 +7,7 @@ const HomeScreen = () => {
   const [animes, setAnimes] = useState([]);
 
   useEffect(() => {
-    fetch("https://kitsu.io/api/edge/anime/333", {
+    fetch("https://kitsu.io/api/edge//anime?filter[categories]=adventure", {
       method: "GET",
       headers: {
         "Accept": "application/vnd.api+json",
@@ -15,7 +15,7 @@ const HomeScreen = () => {
       },
     })
       .then((response) => response.json())
-      .then((data) => setAnimes(data))
+      .then((data) => console.log(data))
       .catch((err) => console.log(err));
     
   }, []);
@@ -23,6 +23,7 @@ const HomeScreen = () => {
   return (
     <div className="homeScreen">
       <Banner />
+      <br/><br/>
       <Row animes={animes} />
       <Row animes={animes} />
       <Row animes={animes} />
