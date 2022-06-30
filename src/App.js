@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import StoryCard from "./components/FirstPage/StoryCard";
 import { Switch, router, Route } from "react-router-dom";
 import LoginPage from "./components/Login/LoginPage";
+import HomeScreen from "./components/MainPage/HomeScreen";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
 
       <Route path="/login">
         <LoginPage />
+      </Route>
+      <Route path="/homepage">
+        <HomeScreen/>
       </Route>
     </Switch>
   );

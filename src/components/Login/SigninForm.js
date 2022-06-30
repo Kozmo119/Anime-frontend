@@ -51,6 +51,8 @@ const SigninForm = () => {
         <br />
         <br />
         <br />
+        
+        <Link to='/homepage'>
         <Button
           style={{
             borderRadius: 5,
@@ -61,7 +63,7 @@ const SigninForm = () => {
           }}
         >
           Sign in
-        </Button>
+        </Button></Link>
       </div>
       
     </div>
