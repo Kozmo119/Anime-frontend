@@ -3,10 +3,13 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 import { height } from "@mui/system";
 
+
+
 const Navbar = () => {
   return (
     <div className="story-header-container">
       <div className="story-header">
+       
         <img
           className="logo"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Apple_Computer_Logo_rainbow.svg/1757px-Apple_Computer_Logo_rainbow.svg.png"
