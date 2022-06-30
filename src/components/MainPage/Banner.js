@@ -14,7 +14,7 @@ const Banner = () => {
       className="banner"
       style={{
         backgroundSize: "cover",
-        backgroundImage: `url("https://wallpapercave.com/wp/wp7123665.jpg")`,
+        backgroundImage: "url(https://wallpaperaccess.com/full/4203243.jpg)",
         backgroundPosition: "center, center",
       }}
     >

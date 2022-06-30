@@ -3,6 +3,7 @@ import requests from "./Requests";
 import Row from "./Row";
 import { useState, useEffect } from "react";
 import Nav from "./Nav";
+import SearchBar from "./SearchBar";
 
 const HomeScreen = () => {
   const [animes, setAnimes] = useState([]);
@@ -27,6 +28,7 @@ const HomeScreen = () => {
       <Banner />
       <br />
       <br />
+      <SearchBar/>
       <Row animes={animes} />
       <Row animes={animes} />
       <Row animes={animes} />
