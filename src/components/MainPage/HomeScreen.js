@@ -2,6 +2,7 @@ import Banner from "./Banner";
 import requests from "./Requests";
 import Row from "./Row";
 import { useState, useEffect } from "react";
+import Nav from "./Nav";
 
 const HomeScreen = () => {
   const [animes, setAnimes] = useState([]);
@@ -22,6 +23,7 @@ const HomeScreen = () => {
 
   return (
     <div className="homeScreen">
+        <Nav/>
       <Banner />
       <br/><br/>
       <Row animes={animes} />
