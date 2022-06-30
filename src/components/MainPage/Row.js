@@ -5,7 +5,7 @@ function Row({ animes }) {
   
   return (
     <div className="row">
-      <h2>This is a title</h2>
+      <h2>This is a title test</h2>
       <div className="row-posters">
       <img className="row-poster"
         src={
